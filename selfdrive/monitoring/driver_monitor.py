@@ -22,12 +22,12 @@ class DRIVER_MONITOR_SETTINGS():
     self._AWARENESS_TIME = 30. # passive wheeltouch total timeout
     self._AWARENESS_PRE_TIME_TILL_TERMINAL = 15.
     self._AWARENESS_PROMPT_TIME_TILL_TERMINAL = 6.
-    self._DISTRACTED_TIME = 11. # active monitoring total timeout
-    self._DISTRACTED_PRE_TIME_TILL_TERMINAL = 8.
-    self._DISTRACTED_PROMPT_TIME_TILL_TERMINAL = 6.
+    self._DISTRACTED_TIME = 240. # active monitoring total timeout
+    self._DISTRACTED_PRE_TIME_TILL_TERMINAL = 180.
+    self._DISTRACTED_PROMPT_TIME_TILL_TERMINAL = 120.
 
-    self._FACE_THRESHOLD = 0.7
-    self._EYE_THRESHOLD = 0.65
+    self._FACE_THRESHOLD = 0.8
+    self._EYE_THRESHOLD = 0.8
     self._SG_THRESHOLD = 0.9
     self._BLINK_THRESHOLD = 0.87
 
